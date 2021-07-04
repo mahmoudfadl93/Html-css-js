@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css?family=Niramit');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Start Main Rulez */
+body{
+
+}
+p {
+    line-height: 1.7;
+    color: #888;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+    overflow: hidden;
+}
+.clearfix{
+    clear: both;
+}
+
+ul , ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* End Main Rulez*/
+/* start header */
+
+.header .slider{
+    background-image: url(../Images/slider.jpg);
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 91vh;
+
+}
+
+.header .slider .InTro{
+    padding-top: 200px;
+    text-align: center;
+    color: #FFF;
+}
+.header .slider .InTro h2{
+    margin: 0 auto;
+    font-size: 50px;
+    width: 600px;
+    border-top: 4px solid #FFF;
+    border-bottom: 4px solid #FFF;
+    padding: 5px 0;
+    color: #FFF;
+}
+.header .slider .InTro button{
+    background: none;
+    margin-top: 30px;
+    font-size: 20px;
+    border: 2px solid #FFF;
+    font-weight: bold;
+    padding: 10px 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.header .navbar{
+    background-color: #252F31;
+    color: #fff;
+    overflow: hidden;
+}
+
+
+.header .navbar h2{
+    float: left;
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+.header .navbar h2 span{
+    color: #2ecc71;
+}
+.header .navbar ul{
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: right;
+    margin: 15px 0;
+}
+.header .navbar ul li{
+    float: left;
+    padding: 10px; 
+}
+
+.header .navbar ul li a {
+    color: #FFF;
+    text-decoration: none;
+}
+.header .navbar ul li.active a, .header .navbar ul li a:hover {
+    color: #30B576;
+}
+/*end header */
+
+/* start features*/
+.features{
+    overflow: hidden;
+}
+.features .feat{
+    float: left;
+    width: 32%;
+    padding: 10px;
+    margin: 5px 1% 10px 0;
+    text-align: center;
+}
+.features .feat h2{
+    text-transform: uppercase;
+}
+.features .feat p{
+    text-align: left
+}
+
+/* end features*/
+
+/* Start About Me */
+
+.AboutME{
+    background-color: #F2F2F2;
+    overflow: hidden;
+}
+
+.AboutME .image{
+    width: 40%;
+    float: left;
+}
+.AboutME .image img{
+    width: 100%;
+    height: 100%;
+}
+.AboutME .Info{
+    width: 55%;
+    float: left;
+    padding-left: 1%;
+}
+.AboutME .Info h2 {
+    margin: 25px 0 20px 40px;
+}
+
+.AboutME .Info > p {
+    margin: 0 0 10px 40px;
+}
+.AboutME .Info > p:last-of-type {
+    margin-top: 25px;
+}
+
+.AboutME .Info .content{
+    width: 45%;
+    overflow: hidden;
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px
+}
+
+.AboutME .Info .content .IConS{
+    width: 12%;
+    margin-right: 5%;
+    float: left;
+}
+
+.AboutME .Info .content .IConS i{
+    color: #2DCC70;
+}
+.AboutME .Info .content .HobbiesText{
+    width: 83%;
+    float: left;
+}
+/* End About Me */
+
+/* Start My Skills */
+
+.MySKills{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+.MySKills .Skills{
+    width: 50%;
+    float: left;
+}
+.MySKills .Skills h2{
+    margin: 25px 0 20px 40px;
+}
+.MySKills .Skills p{
+    margin: 0 0 10px 40px;
+}
+
+.MySKills .Skills button{
+    margin-top: 20px;
+    margin-left: 40px;
+    background: none;
+    border: 3px solid #2DCC70;
+    padding: 10px 30px;
+    color: #2DCC70;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.MySKills .progress{
+    width: 50%;
+    float: left;
+}
+
+.MySKills .progress .technique{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.MySKills .progress .technique h3{
+    margin: 0 0 15px;
+}
+.MySKills .progress .technique div{
+    background-color: #F2F2F2;
+    height: 25px;
+}
+
+.MySKills .progress .technique div span{
+    background-color: #2DCC70;
+    height: 25px;
+    display: block;
+    line-height: 25px;
+    text-align: right;
+    color: #FFF;
+    font-weight: bold;
+}
+/* End   My Skills */
+
+/* Start Resume */
+
+.Resume{
+    text-align: center;
+    background-color: #F2F2F2;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.Resume p {
+    padding: 0 40px;
+}
+
+.Resume button {
+    margin-top: 15px;
+    background: none;
+    border: 3px solid #2DCC70;
+    padding: 10px 30px;
+    color: #2DCC70;
+    font-weight: bold;
+}
+
+/* End Resume */
+
+/* start my Education */
+.MyEducation{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.MyEducation hr {
+    margin: 20px 0;
+    background-color: #999;
+    height: 1px;
+    border: 0;
+}
+.MyEducation .main{
+    width: 50%;
+    margin-right: 5%;
+    float: left;
+}
+
+.MyEducation .main h2 {
+    margin: 25px 0 20px 40px;
+}
+.MyEducation .main p{
+    margin: 0 0 10px 40px;
+}
+
+.MyEducation .Exp {
+    width: 45%;
+    float: left;
+}
+.MyEducation .Exp h3{
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+.MyEducation .Exp span {
+    display: block;
+    margin-bottom: 10px;
+}
+.MyEducation .Exp span:first-of-type {
+    color: #999;
+}
+.MyEducation .Exp span:last-of-type {
+    background-color: #2DCC70;
+    color: #FFF;
+    display: inline-block;
+    padding: 4px 10px;
+}
+/* End my Education */
+
+/* start testimonials */
+
+.testimonials{
+    text-align: center;
+    background-color: #F2F2F2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.testimonials q{
+    color: #888;
+    font: italic bold 18px/1.8 Arial, Tahoma;
+}
+
+.testimonials h3 {
+    margin-bottom: 30px;
+}
+
+.testimonials ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+.testimonials ul li {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #2DCC70;
+    display: inline-block;
+    cursor: pointer;
+}
+.testimonials ul li.active, .testimonials ul li:hover {
+    background-color: #2DCC70;
+}
+/* End testimonials */

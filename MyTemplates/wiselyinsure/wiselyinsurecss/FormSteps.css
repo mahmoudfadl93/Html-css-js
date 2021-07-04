@@ -1,0 +1,202 @@
+
+
+.RIGHTHEALTHINSURANCE{
+    margin-top: 40px;
+}
+
+.FormINSURANCE {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    float: none;
+}
+
+.TableINSURANCE{
+    float: none;
+    margin: 60px 0px;
+}
+
+.AgeStaff{
+ font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+.AgeStaff tbody tr td{
+    padding: 15px 30px 15px 30px;
+}
+.AgeStaff tbody tr td:first-child{
+    width: 16%;
+}
+
+
+
+.TOTALNUMBER{
+
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.TOTALNUMBER p{
+    color: #ff0000b0;
+    font-size: 1.3vw;
+}
+.LoadingNumber p{
+    display: inline-block;
+    font-size: 1.4vw;
+    color: #a40404;
+}
+
+
+
+.TOTALNUMBERloader {
+    display: inline-block;
+    border: 9px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 9px solid #22375e;
+    border-bottom: 9px solid #22375e;
+    width: 39px;
+    height: 39px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    position: relative;
+    top: 15px;
+    left: 10px;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .NextTotalNumber{
+      margin: 15px 0px;
+  }
+  .INSURANCEBtnGroup button{
+      margin: 20px 5px;
+  }
+/* form style */
+#msform{
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+    position: relative;
+    overflow-x: hidden;
+    padding-bottom: 10px;
+}
+#msform fieldset{
+    background: white;
+    border: 0 none;
+    border-radius: 3px;
+
+    padding: 20px 30px;
+    margin: 0 auto;
+    /* stackinh fieldsets above each other */
+}
+
+#msform .FormINSURANCE{
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+}
+#msform fieldset:not(:first-of-type){
+    display: none
+}
+/* inputs */
+#msform input , #msform textarea{
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius:3px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    color: white; 
+    font-size: 13px;
+}
+
+
+/* buttons */
+.action-button{
+      width: 100px;
+      background: #27AE60;
+      font-weight: bold;
+      color: white;
+      border: 0 none;
+      border-radius: 3px;
+      cursor: pointer;
+      padding: 10px 5px;
+      margin: 10px 5px;
+
+     }
+
+/* headings */
+.fs-title{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #2C3E50;
+    margin-bottom: 10px;
+}
+
+.fs-subtitles{
+    font-weight: normal;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 20px;
+}
+/* progressbar */
+#progressbar{
+    margin: 10px auto;
+    margin-bottom: 30px;
+    overflow: hidden; 
+    width: 80%;
+    padding-top: 20px;
+    /* CSS counters to number the steps */
+    counter-reset: step;
+}
+#progressbar li{
+    list-style: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 9px;
+    width: 33.33%;
+    float: left;
+    position: relative;
+}
+#progressbar li::before{
+    content: counter(step);
+    counter-increment: step;
+    width: 30px;
+    line-height: 30px;
+    display: block;
+    font-size: 15px;
+    color: #fff;
+    background: #333;
+    border-radius: 20px;
+    margin: 0 auto 5px auto;
+}
+/* progressbar connectors  */
+#progressbar li::after{
+    content: "";
+    width: 100%;
+    height: 1.5px;
+    background: #333;
+    position: absolute;
+    left: 0%;
+    top: 15px;
+    z-index: -1;
+}
+#progressbar li:first-child::after{
+    /* connector not needed before the frist step */
+    content: "none";
+
+}
+/* the marking active completed steps green */
+/* the number of the step and the connector before it =green */
+ #progressbar li.active::before{
+        background: #a8080f;
+        color: white;
+}

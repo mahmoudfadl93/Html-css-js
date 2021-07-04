@@ -1,0 +1,498 @@
+*{
+	
+	padding:0px;
+	margin:0px;
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+nav hr.style {
+    
+        margin: 7px 0px 0px 0px;
+}
+
+ul , ol{
+    list-style-type: none;
+}
+
+hr.style { 
+    position: relative;
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+nav{
+    padding: 0px 8% 10px;
+    position: fixed;
+    width: 100%;
+        background-color: #f5f5f5;
+    z-index: 1111;
+        padding: 0px 8% 0px;
+
+}
+
+.brand{
+	    width: 15%;
+    display: inline-block;
+}
+
+.brand a{
+	    display: block;
+}
+.brand a img{
+	
+	    width: 75%;
+    margin-top: 10px;
+}
+.Ulnavbar{
+	    width: 50%;
+    display: inline-block;
+	text-align: center;
+	    position: relative;
+    top: 20px;
+}
+
+
+.Ulnavbar ul{
+		    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+	    margin-bottom: 0px;
+}
+
+
+
+.Ulnavbar ul li{
+	    margin: 0px 10px;
+	float:left;
+	
+}
+.Ulnavbar ul li a{
+	
+	
+	font-size: 23px;
+    text-decoration: none;
+    color: #333;
+}
+
+.social{
+	       width: 34%;
+    display: inline-block;
+	    position: relative;
+    top: 10px;
+}
+.social button{
+    background-color: #22375f;
+    border: none;
+    color: white;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 32px;
+	margin:0px 10px;
+	transition:0.5s;
+}
+.social button:hover , .social button:focus{
+	     background-color: #efefef;
+	     color: #22375f;
+}
+
+.social a i{
+    font-size: 30px;
+    color: #22375f;
+    margin: 0px 10px;
+    position: relative;
+    top: 4px;
+}
+
+
+
+
+
+.bodyWiselyInsure{
+	width: 100%;
+	    position: relative;
+        top: 75px;
+}
+
+#FindInsurance .carousel-indicators ,#FindInsurance  .carousel-control{
+ display: none;
+}
+
+section{
+    display: inline-block;
+    width: 100%;
+}
+
+
+.Insurance_header{
+        margin-bottom: 40px;
+}
+
+
+.Insurance_header h2{
+      font-weight: 900;
+      font-size: 35px;
+}
+.Insurance_header p{
+        font-size: 25px;
+        font-weight: 700;
+}
+.HDComparing{
+
+text-align: center;
+}
+
+
+
+.bodyComparing{
+	
+	 display: inline-block;
+    width: 100%;
+    margin-top: 70px;
+
+	
+}
+
+
+
+.bodyComparing div a{
+	    color: #22375f;
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+	
+	
+}
+.bodyComparing div a i{
+
+	    font-size: 70px;
+    display: block;
+}
+
+.bodyComparing div a p{
+	
+	margin-top:25px;
+}
+
+.HDCompare{
+    text-align: center;
+    margin-top: 85px;
+}
+
+.HDCompare h1{
+    line-height: 1.5;
+    margin: 30px 0px;
+}
+
+.HDCompare h3{
+    line-height: 1.5;
+    margin: 30px 0px;
+}
+
+.twobuttons{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+     margin-top: 30px;
+}
+
+.twobuttons button{
+	    width: 260px;
+	    background-color: #22375f;
+    border: none;
+    color: white;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 32px;
+	margin:0px 10px;
+	transition:0.5s;
+	
+}
+.twobuttons button:hover , .twobuttons button:focus{
+	     background-color: #efefef;
+	     color: #22375f;
+}
+
+
+
+.ThreeButtons{
+    display: inline-block;
+    width: 100%;
+    margin: 100px 0px;
+    text-align: center;
+}
+.ThreeButtons buttons{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.ThreeButtons  button{
+	    width: 260px;
+	    background-color: #22375f;
+    border: none;
+    color: white;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 32px;
+	margin:0px 10px;
+	transition:0.5s;
+	
+}
+.ThreeButtons button:hover , .ThreeButtons button:focus{
+	     background-color: #efefef;
+	     color: #22375f;
+}
+
+
+
+
+
+.goDown{
+	
+	    text-align: center;
+    margin-top: 55px;
+	
+}
+
+.goDown a{
+	
+	
+	    color: #22375f;
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+}
+
+.goDown a i{
+	    font-size: 70px;
+	
+	
+}
+
+
+.CLIENTS{
+        display: inline-block;
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+
+
+.PartnerClients{
+          
+    display: inline-block;
+    width: 100%;
+     margin-top: 30px;
+}
+
+.LinkClient a{
+    display: inline-block;
+}
+
+
+.SumerGe a img{
+    width: 200px;
+    height: 85px;
+}
+
+.PeuGeot a img{
+        width: 100px;
+    height: 100px;
+}
+
+.NeatMeat a img{
+        width: 100px;
+    height: 100px;
+      padding: 15px;
+     background-color: #dd2026;
+    -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 17%, 100% 79%, 80% 90%, 50% 100%, 20% 90%, 0 80%, 0 20%, 20% 10%);
+    clip-path: polygon(50% 0%, 80% 10%, 100% 17%, 100% 79%, 80% 90%, 50% 100%, 20% 90%, 0 80%, 0 20%, 20% 10%);
+
+}
+
+
+#myCarousel-2{
+    display: inline-block;
+    width: 100%;
+    height: 300px;
+}
+#myCarousel-2 .carousel-inner{
+        top: 35%;
+}
+#myCarousel-2 .carousel-control{
+        background-image: none!important;
+    background-color: #fff;
+    opacity: 1!important;
+    width: 6%!important;
+}
+
+#myCarousel-2 .carousel-indicators{
+        bottom: 0px!important;
+        margin-bottom: 0px;
+}
+#myCarousel-2 .carousel-control i{
+   
+    position: absolute;
+        top: 40%;
+       font-size: 40px;
+    color: #333;
+}
+
+.SERVICES{
+              
+    display: inline-block;
+    width: 100%;
+     margin-top: 30px;
+}
+.UlSERVICES{
+        display: inline-block;
+            float: left;
+            width: 100%;
+}
+.UlSERVICES li{
+    width: 100%;
+    margin-bottom: 80px;
+    display: inline-block;
+}
+
+.UlSERVICES li span{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.UlSERVICES li span i{
+  font-size: 80px;
+      color: #22375f;
+}
+
+.UlSERVICES li a{
+        width: 70%;
+        background-color: #22375f;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    border-radius: 32px;
+    margin: 20px auto;
+    transition: 0.5s;
+}
+
+
+.Medical-Insurance p{
+        width: 100%;
+        display: inline-block;
+        font-size: 25px;
+        font-weight: 500;
+       line-height: 1.7;
+       margin: 20px auto;
+       margin-top: 35px;
+}
+.Medical-Insurance p:first-child{
+        margin-top: 0px;
+}
+/*  */
+
+
+
+
+
+
+/*   OUR PARTNERS */
+
+.OURPARTNERSDiV img{
+    display: inline-block;
+    width: 10%;
+    margin: 0px 2%;
+}
+
+
+
+/*     */
+
+footer{
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 30px 0px 0px 0px;
+}
+
+.Footerlogo a{
+    display: inline-block;
+    width: 100%;
+    margin: 15px 0px 0px 0px;
+}
+
+footer div ul{
+    text-align: left;
+    display: block;
+    width: 100%;
+}
+ 
+footer div ul li{
+    margin: 20px 0px;
+}
+footer div ul li:first-child{
+    margin: 0px 0px;
+}
+
+footer div ul li a{
+    text-decoration: none;
+    font-size: 16px;
+}
+
+footer div ul li a:hover , footer div ul li a:focus{
+    text-decoration: none;
+}
+
+.FooterSocial{
+text-align: left;
+
+}
+.FooterSocial a{
+
+}
+.FooterSocial a i{
+font-size: 40px;
+    color: #22375f;
+    margin: 0px 10px;
+    position: relative;
+    top: 4px;
+}
+
+.FooterSocial a:first-child i{
+    margin: 0px 10px 0px 0px;
+} 
+
+
+
+.CopyRightwiselyinsure{
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    background-color: #22375f;
+    text-align: center;
+}
+
+
+.CopyRightwiselyinsure p{
+font-size: 20px;
+color: #fff;
+}

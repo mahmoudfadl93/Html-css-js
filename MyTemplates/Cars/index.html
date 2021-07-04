@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Car Shop</title>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="carimage/faviconscarimage/favicons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="carimage/favicons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="carimage/favicons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="carimage/favicons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="carimage/favicons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="carimage/favicons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="carimage/favicons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="carimage/favicons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="carimage/favicons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="carimage/favicons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="carimage/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="carimage/favicons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="carimage/favicons/favicon-16x16.png">
+<link rel="manifest" href="carimage/favicons/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" >
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+
+    <link rel="stylesheet" href="carcss/bootstrap.min.css">
+    <link rel="stylesheet" href="carcss/animate.css">
+    <link rel="stylesheet" href="carcss/hover-min.css">
+    <link rel="stylesheet" href="carcss/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="carcss/carstyle.css">
+    <link rel="stylesheet" href="carcss/Mobile-Tab.css">
+    
+    <script src="carjs/modernizr-2.6.2.min.js"></script>
+
+  <script>
+      function initMap() {
+        // Create a map object and specify the DOM element for display.
+        var map = new google.maps.Map(document.getElementById('map_canvas'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+        });
+      }
+
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvDERPrHUhGp7znhapvQQCLgQjDZEl3r4&callback=initMap"
+    async defer></script>
+</head>
+       
+<body id="Carbody" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<!--    header        -->
+     
+    
+<nav id="navigation" class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="sr-only">Toggle navigation</span>
+
+                <i class="fa fa-bars fa-2x"></i>                 
+      </button>
+      <a class="navbar-brand" href="#">    
+          <h1 id="logo">Car logo</h1></a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+        <ul class="nav navbar-nav">
+           <li><a href="#Carbody" class="current">Home</a></li>
+
+                <li><a href="#Carfeatures" class="">Services</a></li>
+
+                <li><a href="#Carworks" class="">Gallery</a></li>
+
+                <li><a href="#Carteam">About Us</a></li>
+
+                <li><a href="#Carcontact">Contact</a></li>
+            </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+
+<section id="Carslider" class="Car-slider">
+   
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" >
+
+            <ol class="carousel-indicators">
+
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+           
+                <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3" class=""></li>
+       
+            </ol>
+
+            <div class="carousel-inner" role="listbox">
+
+                <div class="item active Carslideitem1">
+               
+                <div class="carousel-caption">
+                    
+                    <h2 data-wow-duration="700ms" data-wow-delay="500ms" class="H2itemCarslide wow bounceInDown animated animated">Cars<span> For Sale</span>!</h2>
+                    
+                    <h3 data-wow-duration="1000ms" class="H3itemCarslide wow slideInLeft animated animated" ><span class="color">/New</span>  Cars </h3>
+                   
+                    <p data-wow-duration="1000ms" class="PitemCarslide wow slideInRight animated animated">We are a team of professionals</p>
+
+                    
+                    <ul class="Car-social-links text-center">
+                       
+                        <li><a href="https://www.facebook.com/Carfurniture" target="_blank"><i class="fa fa-facebook fa-lg"></i></a></li>
+                        
+                        <li><a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter fa-lg"></i></a></li>
+                       
+                        <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-lg"></i></a></li>
+                   
+                    </ul>
+                
+                </div>
+            
+            </div>
+            <!-- end single slide -->
+
+                            <div class="item  Carslideitem2">
+               
+                <div class="carousel-caption">
+                    
+                    <h2 data-wow-duration="700ms" data-wow-delay="500ms" class="H2itemCarslide wow bounceInDown animated animated">Cars<span> For Sale</span>!</h2>
+                    
+                    <h3 data-wow-duration="1000ms" class="H3itemCarslide wow slideInLeft animated animated" ><span class="color">/New</span>  Cars </h3>
+                   
+                    <p data-wow-duration="1000ms" class="PitemCarslide wow slideInRight animated animated">We are a team of professionals</p>
+
+                    
+                    <ul class="Car-social-links text-center">
+                       
+                        <li><a href="https://www.facebook.com/Carfurniture" target="_blank"><i class="fa fa-facebook fa-lg"></i></a></li>
+                        
+                        <li><a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter fa-lg"></i></a></li>
+                       
+                        <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-lg"></i></a></li>
+                   
+                    </ul>
+                
+                </div>
+            
+            </div>
+            <!-- end single slide -->
+            
+            
+            <div class="item Carslideitem3">
+                <div class="carousel-caption">
+                    <h2 data-wow-duration="700ms" data-wow-delay="500ms" class="H2itemCarslide wow bounceInDown animated animated">Cars<span> For Sale</span>!</h2>
+                    <h3 data-wow-duration="1000ms" class="H3itemCarslide wow slideInLeft animated animated"><span class="color">/Old</span> Cars</h3>
+                    <p data-wow-duration="1000ms" class="PitemCarslide wow slideInRight animated animated">We are a team of professionals</p>
+
+               <ul class="Car-social-links text-center">
+                     <li><a href="https://www.facebook.com/Carfurniture" target="_blank"><i class="fa fa-facebook fa-lg"></i></a></li>
+                      <li><a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter fa-lg"></i></a></li>
+                      <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-lg"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end single slide -->
+
+              <div class="item Carslideitem4">
+                <div class="carousel-caption">
+                    <h2 data-wow-duration="700ms" data-wow-delay="500ms" class="H2itemCarslide wow bounceInDown animated animated">Cars<span> For Sale</span>!</h2>
+                    <h3 data-wow-duration="1000ms" class="H3itemCarslide wow slideInLeft animated animated"><span class="color">/Old</span> Cars</h3>
+                    <p data-wow-duration="1000ms" class="PitemCarslide wow slideInRight animated animated">We are a team of professionals</p>
+
+               <ul class="Car-social-links text-center">
+                     <li><a href="https://www.facebook.com/Carfurniture" target="_blank"><i class="fa fa-facebook fa-lg"></i></a></li>
+                      <li><a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter fa-lg"></i></a></li>
+                      <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-lg"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end single slide -->
+        </div>
+        <!-- End Wrapper for slides -->
+
+    </div>
+</section>
+
+
+<section id="Carfeatures" class="Car-features">
+    <div class="container">
+        <div class="row">
+
+            <div class="SedieDivH2 text-center wow bounceInDown animated" data-wow-duration="500ms">
+                <h2>Our Services</h2>
+                <div class="heartfeatures"><i class="fa fa-heart-o fa-lg"></i></div>
+            </div>
+
+            
+            <div class="serviceItem col-md-3 wow fadeInLeft animated" data-wow-duration="500ms" >
+                <div class="itemService">
+                    <div class="service-icon">
+                        <i class="fa fa-car fa-2x"></i>
+                    </div>
+
+                    <div class="service-desc">
+                        <h3> Selling cars</h3>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="serviceItem col-md-3 wow fadeInLeft animated" data-wow-duration="500ms">
+                <div class="itemService">
+                    <div class="service-icon">
+                        <i class="fa fa-car fa-2x"></i>
+                    </div>
+
+                    <div class="service-desc">
+                        <h3>renting cars</h3>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="serviceItem col-md-3 wow fadeInLeft animated" data-wow-duration="500ms">
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fa fa-car fa-2x"></i>
+                    </div>
+
+                    <div class="service-desc">
+                        <h3>Buy cars</h3>
+                    </div>
+                </div>
+            </div>
+
+            
+            
+            <div class="serviceItem col-md-3 wow fadeInLeft animated" data-wow-duration="500ms">
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fa fa-car fa-2x"></i>
+                    </div>
+
+                    <div class="service-desc">
+                        <h3>car parts</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+    
+    
+    
+ <section id="Carworks" class="Carworks clearfix">
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="SedieDivH2 text-center">
+                <h2>Our Gallery</h2>
+                <div class="heartfeatures"><i class="fa fa-heart-o fa-lg"></i></div>
+            </div>
+
+            <div class="CarDivpragraf text-center">
+                <p>We are making furniture, high professionalism in order to satisfy customer concerns us because the presence and professional furniture .. We support the customer with the latest modern designs.</p>
+            </div>
+
+            <div class="Car-work-filter wow fadeInRight animated" data-wow-duration="500ms">
+                <ul class="text-center">
+                                <li><button type="button" data-filter="all" class=" filter">All</button></li>
+                                <li><button type="button"  data-filter=".category-A" class=" filter">Selling cars</button></li>
+                                <li><button type="button" data-filter=".category-B" class=" filter">renting cars</button></li>
+                                <li><button type="button" data-filter=".category-C" class=" filter">Buy cars</button></li>
+                                <li><button type="button" data-filter=".category-D" class=" filter">car parts</button></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="ProjectWrapper containers" id="MixItUpWork">
+        
+         <div class="Carmix animated animated mix category-C" data-wow-duration="500ms"  data-order="3">
+            <img src="carimage/car1.jpg" alt="">
+            <div class="Caritemwork ">
+                <a class="fancybox"   data-fancybox="gallery"  title="Car Furniture Dressing Room" href="carimage/car1.jpg">
+                    <i class="fa fa-eye fa-lg"></i>
+                </a>
+                <h4>Car Furniture</h4>
+                <p>Dressing Room</p>
+            </div>
+        </div>
+         <div class="Carmix animated mix category-D" data-wow-duration="500ms"  data-order="4">
+            <img src="carimage/car2.jpg" alt="">
+            <div class="Caritemwork ">
+                <a class="fancybox"   data-fancybox="gallery"  title="Car Furniture Dressing Room" href="carimage/car2.jpg">
+                    <i class="fa fa-eye fa-lg"></i>
+                </a>
+                <h4>Car Furniture</h4>
+                <p>Kidz Room</p>
+            </div>
+        </div>
+         <div class="Carmix animated mix category-C" data-wow-duration="500ms"  data-order="3">
+            <img src="carimage/car3.jpg" alt="">
+            <div class="Caritemwork ">
+                <a class="fancybox"   data-fancybox="gallery"  title="Car Furniture Dressing Room" href="carimage/car3.jpg">
+                    <i class="fa fa-eye fa-lg"></i>
+                </a>
+                <h4>Car Furniture</h4>
+               <p>Dressing Room</p>
+            </div>
+        </div>
+         <div class="Carmix animated mix  category-A" data-wow-duration="500ms"  data-order="1">
+            <img src="carimage/car4.jpg" alt="">
+            <div class="Caritemwork ">
+                <a  class="fancybox"   data-fancybox="gallery"  title="Car Furniture Dressing Room" href="carimage/car4.jpg">
+                    <i class="fa fa-eye fa-lg"></i>
+                </a>
+                <h4>Car Furniture</h4>
+                <p>Bed Room</p>
+            </div>
+        </div>
+         <div class="Carmix animated mix category-B" data-wow-duration="500ms"  data-order="2">
+            <img src="carimage/car5.jpg" alt="">
+            <div class="Caritemwork ">
+                <a class="fancybox"   data-fancybox="gallery"  title="Car Furniture Dressing Room" href="carimage/car5.jpg">
+                    <i class="fa fa-eye fa-lg"></i>
+                </a>
+                <h4>Car Furniture</h4>
+                <p>Dining Room</p>
+            </div>
+        </div>
+         <div class="Carmix animated mix category-A" data-wow-duration="500ms"  data-order="1">
+            <img src="carimage/car6.jpg" alt="">
+            <div class="Caritemwork ">
+                <a class="fancybox"   data-fancybox="gallery"  title="Car Furniture Dressing Room" href="carimage/car6.jpg">
+                    <i class="fa fa-eye fa-lg"></i>
+                </a>
+                <h4>Car Furniture</h4>
+               <p>Bed Room</p>
+            </div>
+        </div>
+         <div class="Carmix animated mix category-B" data-wow-duration="500ms"  data-order="2">
+            <img src="carimage/car7.jpg" alt="">
+            <div class="Caritemwork ">
+                <a class="fancybox"   data-fancybox="gallery"  title="Car Furniture Dressing Room" href="carimage/car7.jpg">
+                    <i class="fa fa-eye fa-lg"></i>
+                </a>
+                <h4>Car Furniture</h4>
+               <p>Dining Room</p> 
+            </div>
+        </div>
+         <div class="Carmix animated mix category-A" data-wow-duration="500ms"  data-order="1">
+            <img src="carimage/car8.jpg" alt="">
+            <div class="Caritemwork ">
+                <a class="fancybox"   data-fancybox="gallery"  title="Car Furniture Dressing Room" href="carimage/car8.jpg">
+                    <i class="fa fa-eye fa-lg"></i>
+                </a>
+                <h4>Car Furniture</h4>
+                <p>Bed Room</p>
+            </div>
+        </div>
+    </div>
+
+</section>    
+
+
+
+
+
+
+<section id="Carteam" class="Car-team">
+    <div class="container">
+        <div class="row">
+
+            <div class="SedieDivH2 text-center wow fadeInDown animated" data-wow-duration="700ms">
+                <h2>About US</h2>
+                <div class="heartfeatures"><i class="fa fa-heart-o fa-lg"></i></div>
+            </div>
+
+            <div class="Divprag text-center wow fadeInRight animated" data-wow-duration="500ms" >
+                <p></p>
+                <p>Car Furniture , is manufacturer of fine classic and contemporary furniture to the most established and innovative italian and european furniture designers with combination of exceptional quality , unique finishes and unparalleled customer services.</p>
+                <p></p>
+            </div>
+
+            <div class="SedieDivH2   text-center wow fadeInUp animated" data-wow-duration="700ms">
+                <div class="heartfeatures"><i class="fa fa-heart-o fa-lg"></i></div>
+            </div>
+
+            <div class="Divprag  text-center wow fadeInLeft animated" data-wow-duration="500ms">
+                <p></p>
+                <p>our vision for Car Furniture is , to be pioneer in providing a complete solution in all design areas of residential and commercial projects we are providing the highest design quality in all aspects of furniture and finishing.</p>
+                <p></p>
+            </div>
+
+            <div class="SedieDivH2   text-center wow fadeInDown animated" data-wow-duration="700ms">
+                <div class="heartfeatures"><i class="fa fa-heart-o fa-lg"></i></div>
+            </div>
+
+              <div class="Divprag  text-center wow fadeInLeft animated" data-wow-duration="500ms">
+                <p></p>
+                <p>each piece produced by Car Furniture has been carefully thought out and designed with the care of an individual piece of sculpture.</p>
+                <p></p>
+            </div>
+
+        </div>
+    </div>
+</section>
+   
+
+
+
+
+
+
+
+<section id="Carfacts" class="Car-facts">
+    <div class="ParallaxOverlay">
+        <div class="container">
+            <div class="row NumberCounters">
+
+                <div class="SedieDivH2 text-center wow rubberBand animated" data-wow-duration="1000ms">
+                    <h2 class="countersH2">Some Fun Facts</h2>
+                    <div class="heartfeatures"><i class="fa fa-heart-o fa-lg"></i></div>
+                </div>
+
+                <!-- first count item -->
+                <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+                    <div class="CountersItem">
+                        <i class="fa fa-clock-o fa-3x"></i>
+                        <br>
+                        <br>
+                        <strong class="counttodata wow animated" data-from="0" data-to="8" data-speed="5000" data-refresh-interval="50"></strong>
+                        <!-- Set Your Number here. i,e. data-to="56" -->
+                        <p>Hours of Work in day</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <div class="CountersItem">
+                        <i class="fa fa-users fa-3x"></i>
+                        <br>
+                        <small>More Than</small>
+                        <strong class="counttodata wow animated" data-from="0" data-to="50" data-speed="4000" data-refresh-interval="50"></strong>
+                        <!-- Set Your Number here. i,e. data-to="56" -->
+                        <p>Satisfied Clients</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
+                    <div class="CountersItem">
+                        <i class="fa fa-rocket fa-3x"></i>
+                        <br>
+                        <small>More Than</small>
+                        <strong class="counttodata wow animated" data-from="0" data-to="80" data-speed="3000" data-refresh-interval="50"></strong>
+                        <!-- Set Your Number here. i,e. data-to="56" -->
+                        <p> cars Delivered </p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
+                    <div class="CountersItem">
+                        <i class="fa fa-clock-o fa-3x"></i>
+                        <br>
+                        <br>
+                        <strong class="counttodata wow animated"  data-from="2000" data-to="2018" data-speed="3000" data-refresh-interval="50"></strong>
+                        <!-- Set Your Number here. i,e. data-to="56" -->
+                        <p>Since</p>
+                    </div>
+                </div>
+                <!-- end first count item -->
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+<section id="Carcontact" class="Car-contact">
+			<div class="container">
+				<div class="row contactForm">
+				
+					<div class="SedieDivH2 text-center mb50 wow fadeInDown animated" data-wow-duration="500ms">
+						<h2>Contact Us</h2>
+						<div class="heartfeatures"><i class="fa fa-heart-o fa-lg"></i></div>
+					</div>
+					
+					<div class="Divprag text-center wow rubberBand animated" data-wow-duration="1000ms">
+						<p>We support the client in the course of the contract and after delivery and at any time within 24 hours .. E-mail us at any time and we will reply as soon as.</p>
+					</div>
+					
+					<!-- contact address -->
+					<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 wow fadeInLeft animated" data-wow-duration="500ms">
+						<div class="ContactAddress">
+							<h3>Our Contact</h3>
+							<p>, Cairo, Egypt</p>
+							<p>info@Car.com</p>
+							<p>(02) 000000000</p>
+							<p>(01) 444444444</p>
+						</div>
+					</div>
+					<!-- end contact address -->
+					
+					<!-- contact form -->
+					<div class="col-lg-8 col-md-8 col-sm-7 col-xs-12 wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="300ms">
+						<div class="ContactForm">
+							<h3>Say hello!</h3>
+							<form id="contact">
+								<div class="input-group name-email">
+									<div class="input-field">
+										<input type="text" name="name" id="name" placeholder="Name" class="form-control">
+									</div>
+									<div class="input-field">
+										<input type="email" name="email" id="email" placeholder="Email" class="form-control">
+									</div>
+								</div>
+								<div class="input-group">
+									<textarea name="message" id="message" placeholder="Message" class="form-control"></textarea>
+								</div>
+								<div class="input-group">
+									<input  type="submit" id="form-submit" class="pull-right CarButton" value="Send message">
+								</div>
+							</form>
+						</div>
+					</div>
+					<!-- end contact form -->
+					
+					<!-- footer social links -->
+					
+					<!-- end footer social links -->
+					
+				</div>
+			</div>
+			
+			<!-- Google map -->
+                        <div id="map_canvas">
+                            
+                        </div>
+			<!-- End Google map -->
+			
+		</section>
+		
+
+
+
+
+
+		
+		
+		<footer id="Carfooter" class="Car-footer">
+			<div class="container">
+				<div class="row">
+				
+					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms">
+						<div class="FooterSingle">
+							<h1 id="Footerlogo">Car logo</h1>
+							<p>Car, is manufacturer of fine classic and contemporary furniture to the most established and innovative italian and european furniture designers with combination of exceptional quality.</p>
+						</div>
+					</div>
+				
+					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
+						<div class="FooterSingle">
+							<h6>Subscribe </h6>
+							<form action="#" class="CarSubscribe">
+								<input type="text" name="CarSubscribe" id="Car-Subscribe">
+								<input type="submit" value="→" id="SUbs">
+							</form>
+							<p> Subscribe to receive all our new. </p>
+						</div>
+					</div>
+				
+					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
+						<div class="FooterSingle">
+							<h6>Explore</h6>
+							<ul>
+								<li><a href="#">Inside Us</a></li>
+								<li><a href="#">Flickr</a></li>
+								<li><a href="#">Google</a></li>
+								<li><a href="#">Forum</a></li>
+							</ul>
+						</div>
+					</div>
+				
+					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
+						<div class="FooterSingle">
+							<h6>Support</h6>
+							<ul>
+								<li><a href="#">Contact Us</a></li>
+								<li><a href="#">Market Blog</a></li>
+								<li><a href="#">Help Center</a></li>
+								<li><a href="#">Pressroom</a></li>
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<p class="MFadlCopyright text-center">
+							Copyrigt © 2018 <a href="">MFadl</a>
+                                                        . All rights reserved. Designed &amp; developed by 
+                                                        <a href="http://MFadl-eg.com/">MFadl</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+<button class="BackTop CarButton"  id="UpButton"><i class="fa fa-angle-up fa-3x"></i></button>
+
+
+    <script src="carjs/jquery-3.3.1.min.js"></script>
+
+      
+    <script src="carjs/bootstrap.min.js"></script>
+    
+    <script src="carjs/jquery.fancybox.min.js"></script>
+    
+    <script src="carjs/mixitup.min.js"></script>
+
+    <script>
+        
+            var mixer = mixitup('.containers');
+
+
+
+   
+</script>
+    
+    <script src="carjs/jquery.countTo.js"></script>
+
+    <script src="carjs/jquery.easing.min.js"></script>
+     
+
+    <script src="carjs/wow.min.js"></script>
+    <script>
+          WOW   
+
+var wow = new WOW ({
+    boxClass:     'wow',      // animated element css class (default is wow)
+    animateClass: 'animated', // animation css class (default is animated)
+    offset:       150,          // distance to the element when triggering the animation (default is 0)
+    mobile:       false,       // trigger animations on mobile devices (default is true)
+    live:         true        // act on asynchronously loaded content (default is true)
+  }
+);
+wow.init();</script>
+
+  
+    <script src="carjs/carscript.js"></script>
+
+        </body>
+</html>
